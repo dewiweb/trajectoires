@@ -16,8 +16,8 @@ gulp.task('nw', function () {
         '!./node_modules/gulp/**',
         './node_modules/gulp-util/**',
         './node_modules/node-webkit-builder/**'],
-        //platforms: ['osx32', 'win32', 'linux32'] // change this to 'win' for/on windows
-        platforms: ['osx'] // change this to 'win' for/on windows
+        platforms: ['win64', 'linux64'] // change this to 'win' for/on windows
+        //platforms: ['osx'] // change this to 'win' for/on windows
     });
  
     // Log stuff you want
